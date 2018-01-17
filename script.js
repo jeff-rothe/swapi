@@ -3,7 +3,7 @@
 // Best practice to inluce this function, because it ensures the document is fully loaded
 
 $(() => {
-    alert('Working!');
+  
 })
 
 
