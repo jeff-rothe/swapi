@@ -44,6 +44,14 @@ $(() => {
         row.append(height);
         row.append(birth);
     }
+
+    // Add event listener
+    $('#clearButton').click( () => {
+        // Remove all of the new rows in the tableBody
+        $('#tableBody').empty();
+        // Reset loaded to false such that the Get Info button can be clicked again
+        loaded = false;
+    })
 })
 
 
